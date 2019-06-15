@@ -109,9 +109,9 @@
     <Content Include="LICENSE.txt" />
     <Content Include="WinRing0\LICENSE.txt" />
     <Content Include="WinRing0\README.txt" />
-    <Content Include="WinRing0\WinRing0x64.dll">
+    <None Include="WinRing0\WinRing0x64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

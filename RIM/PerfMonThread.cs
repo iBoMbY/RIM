@@ -98,7 +98,7 @@ namespace RIM
         const uint PERF_CTR_EVENT_RETIRED_UOPS = 0x000000C1;
         const uint PERF_CTR_EVENT_RETIRED_BRANCH = 0x000000C2;
 
-        const uint PERF_CTR_EVENT_RETIRED_FP     = 0x000000C0;
+        const uint PERF_CTR_EVENT_RETIRED_FP     = 0x000000CB;
         const uint PERF_CTR_EVENT_RETIRED_FUSED  = 0x00000003;
 
         const uint PERF_CTR_RESERVED = 0x00000000;
