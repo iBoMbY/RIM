@@ -13,3 +13,5 @@ Currently reading the following counters:
 - FM: PMCx003
 
 Displayed as "GI", meaning "Giga Instructions per Second".
+
+Using [WinRing0](https://github.com/QCute/WinRing0).
