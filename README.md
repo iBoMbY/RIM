@@ -9,8 +9,9 @@ Currently reading the following counters:
 - IS: PMCx0C1 [Retired Uops]
 - BI: PMCx0C2 [Retired Branch Instructions]
 - LS: PMCx029 [LS Dispatch]
-- FP: PMCx0C0 [Retired Instructions] <- ? This is probably the wrong one?
+- FP: PMCx0CB [Retired MMX™/FP Instructions]
 - FM: PMCx003 [Retired SSE/AVX Operations]
+- OI: IS-(BI+LS+FP+FM)
 
 Displayed as "GI", meaning "Giga Instructions per Second".
 
