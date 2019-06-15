@@ -6,11 +6,11 @@ Lazy ass example for reading Ryzen Performance Monitor Counters (PMC) as defined
 
 Currently reading the following counters:
 
-- IS: PMCx0C1
-- BI: PMCx0C2
-- LS: PMCx029
-- FP: PMCx0C0
-- FM: PMCx003
+- IS: PMCx0C1 [Retired Uops]
+- BI: PMCx0C2 [Retired Branch Instructions]
+- LS: PMCx029 [LS Dispatch]
+- FP: PMCx0C0 [Retired Instructions] <- ? This is probably the wrong one?
+- FM: PMCx003 [Retired SSE/AVX Operations]
 
 Displayed as "GI", meaning "Giga Instructions per Second".
 
